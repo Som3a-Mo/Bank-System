@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects\\Bank System\\BankSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\fileshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\fileshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\bin\\debug\\net8.0\\employees.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\bin\\debug\\net8.0\\employees.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\datasourceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\datasourceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|f:\\projects\\bank system\\banksystem\\bank system\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE464C-540C-4995-9425-34A4B236556C}|Bank System\\Bank System.csproj|solutionrelative:bank system\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employees.txt",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\bin\\Debug\\net8.0\\Employees.txt",
+              "RelativeDocumentMoniker": "Bank System\\bin\\Debug\\net8.0\\Employees.txt",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\bin\\Debug\\net8.0\\Employees.txt",
+              "RelativeToolTip": "Bank System\\bin\\Debug\\net8.0\\Employees.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-10T19:38:46.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilesHelper.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\FilesHelper.cs",
+              "RelativeDocumentMoniker": "Bank System\\FilesHelper.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\FilesHelper.cs",
+              "RelativeToolTip": "Bank System\\FilesHelper.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T16:27:54.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\FileManager.cs",
+              "RelativeDocumentMoniker": "Bank System\\FileManager.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\FileManager.cs",
+              "RelativeToolTip": "Bank System\\FileManager.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:27:17.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataSourceInterface.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\DataSourceInterface.cs",
+              "RelativeDocumentMoniker": "Bank System\\DataSourceInterface.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\DataSourceInterface.cs",
+              "RelativeToolTip": "Bank System\\DataSourceInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:51:27.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Person.cs",
+              "RelativeDocumentMoniker": "Bank System\\Person.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Person.cs",
+              "RelativeToolTip": "Bank System\\Person.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:09:00.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Validation.cs",
+              "RelativeDocumentMoniker": "Bank System\\Validation.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Validation.cs",
+              "RelativeToolTip": "Bank System\\Validation.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:07:46.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Admin.cs",
+              "RelativeDocumentMoniker": "Bank System\\Admin.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Admin.cs",
+              "RelativeToolTip": "Bank System\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:07:24.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Employee.cs",
+              "RelativeDocumentMoniker": "Bank System\\Employee.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Employee.cs",
+              "RelativeToolTip": "Bank System\\Employee.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:06:55.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Program.cs",
+              "RelativeDocumentMoniker": "Bank System\\Program.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Program.cs*",
+              "RelativeToolTip": "Bank System\\Program.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:04:36.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Client.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Client.cs",
+              "RelativeDocumentMoniker": "Bank System\\Client.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Client.cs",
+              "RelativeToolTip": "Bank System\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:06:19.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Parser.cs",
+              "RelativeDocumentMoniker": "Bank System\\Parser.cs",
+              "ToolTip": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Parser.cs",
+              "RelativeToolTip": "Bank System\\Parser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:36:14.32Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
