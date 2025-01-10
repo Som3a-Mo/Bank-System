@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Bank System.csproj",
+      "projectUniqueName": "F:\\Projects\\Bank System\\Repo\\BankSystem\\Bank System\\Bank System.csproj",
       "projectName": "Bank System",
-      "projectPath": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\Bank System.csproj",
+      "projectPath": "F:\\Projects\\Bank System\\Repo\\BankSystem\\Bank System\\Bank System.csproj",
       "packagesPath": "C:\\Users\\esmail\\.nuget\\packages\\",
-      "outputPath": "F:\\Projects\\Bank System\\BankSystem\\Bank System\\obj\\",
+      "outputPath": "F:\\Projects\\Bank System\\Repo\\BankSystem\\Bank System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\esmail\\AppData\\Roaming\\NuGet\\NuGet.Config",

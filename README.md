@@ -58,3 +58,17 @@ The project is divided into three main modules:
    ```bash
    git clone https://github.com/yourusername/bank-system-app.git
    cd bank-system-app
+   ```
+2. Open the project in Visual Studio or your preferred IDE.
+3. Build the project to restore dependencies and compile the code.
+4. Run the application:
+   - The application starts by displaying a welcome screen, followed by a login prompt where the user can choose to log in as a client, employee, or admin.
+## Running the Application
+1. When you run the application, you'll be presented with three login options:
+
+   - Client Login: Log in as a client to perform banking operations like deposit, withdrawal, and balance checking.
+   - Employee Login: Log in as an employee to manage clients.
+   - Admin Login: Log in as an admin to manage both clients and employees.
+2. Each user can log in with their ID and password. If valid, they'll be directed to a menu with the relevant options for their role.
+
+3. All operations, such as adding clients and employees, editing their details, and displaying information, are available through these menus.
