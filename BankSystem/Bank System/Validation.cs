@@ -6,7 +6,7 @@ namespace Bank_System
     internal class Validation
     {
         private const string NamePattern = "^[a-zA-Z]{6,19}$";
-        private const string PasswordPattern = "^[a-zA-Z0-9]{8,20}&";
+        private const string PasswordPattern = "^[a-zA-Z0-9]{8,20}$";
         private const double Minimumbalance = 1500;
         private const double MinimumSalary = 5000;
         static public bool IsValidName(string name)

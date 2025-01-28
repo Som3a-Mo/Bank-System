@@ -6,7 +6,7 @@ namespace Bank_System
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Screens.run();
         }
     }
 }

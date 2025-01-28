@@ -11,12 +11,13 @@ namespace Bank_System
             List<T> result = new List<T>();
             try
             {
-
                 result = JsonSerializer.Deserialize<List<T>>(persons);
+
             }
             catch 
             {
             }
+            
             return result;
         }
 

@@ -21,12 +21,8 @@ namespace Bank_System
             return client;
         }
 
-        public static void updatePassword(string password)
-        {
 
-        }
-
-        public static void printClientMenu()
+        private static void printClientMenu()
         {
             Console.WriteLine("1. Deposit Money");
             Console.WriteLine("2. Withdraw Money");

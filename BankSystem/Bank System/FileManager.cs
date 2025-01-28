@@ -1,4 +1,6 @@
 ﻿
+using System.Text.Json;
+
 namespace Bank_System
 {
     internal class FileManager : DataSourceInterface
@@ -33,7 +35,8 @@ namespace Bank_System
         public List<Admin> getAllAdmins()
         {
             string file = "Admins.txt";
-            List<Admin> Admins = Parser.parseToObject<Admin>(File.ReadAllText(file));
+            string jsonText = File.ReadAllText(file);
+            List<Admin> Admins = Parser.parseToObject<Admin>(jsonText);
             return Admins;
         }
 

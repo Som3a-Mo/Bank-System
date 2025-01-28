@@ -81,7 +81,7 @@ namespace Bank_System
         public static Admin getAdmin(int id)
         {
             List<Admin> employees = fileManager.getAllAdmins();
-            Admin admin = employees.Where(admin => admin.Id == id).FirstOrDefault();
+            Admin admin = employees.Where(a => a.Id == id).FirstOrDefault();
             return admin;
         }
 

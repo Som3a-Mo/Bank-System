@@ -5,9 +5,9 @@ namespace Bank_System
     internal class Person
     {
 
-        public int Id { get; set; } = 1;
-        public string Name { get; protected set; }
-        public string Password { get; protected set; }
+        public int Id { get; set; }
+        public string Name { get;set; }
+        public string Password { get;set; }
 
         public bool setName(string name)
         {

@@ -28,35 +28,51 @@ namespace Bank_System
             Console.WriteLine("5. Logout");
         }
 
+        private static void message(string ms)
+        {
+            Console.Write($"Enter Employee {ms}: ");
+        }
         private static void newEmployee(Admin admin)
         {
             Employee employee = new Employee();
             int id = FilesHelper.employeeIdGenerator();
             employee.setId(id);
+
+            message("Name");
+            string name = Console.ReadLine();
+            bool validName = employee.setName(name);
+            while (!validName)
+            {
+                Console.WriteLine("this is not correct name try again.");
+                message("Name");
+                name = Console.ReadLine();
+                validName = employee.setName(name);
+            }
+
+            message("Password");
             string password = Console.ReadLine();
             bool validPassword = employee.setPassword(password);
 
             while (!validPassword)
             {
+                Console.WriteLine("this is not correct password try again.");
+                message("Password");
                 password = Console.ReadLine();
                 validPassword = employee.setPassword(password);
             }
 
-            string name = Console.ReadLine();
-            bool validName = employee.setName(name);
-            while (!validName)
-            {
-                name = Console.ReadLine();
-                validName = employee.setName(name);
-            }
-
+            message("Salary");
             double salary = double.Parse(Console.ReadLine());
             bool validBalance = employee.setSalary(salary);
             while (!validBalance)
             {
+                Console.WriteLine("this is not correct salary try again.");
+                message("Salary");
                 salary = double.Parse(Console.ReadLine());
                 validBalance = employee.setSalary(salary);
             }
+            Console.WriteLine($"The Employee Id is: {id}");
+            admin.addEmployee(employee);
         }
         private static void searchForEmployee(Admin admin)
         {
@@ -69,7 +85,7 @@ namespace Bank_System
                 return;
             }
             Console.WriteLine($"The Employee with id: {id}, his name is: {employee.Name}," +
-                $" his Salary: {employee.Balance}");
+                $" his Salary: {employee.Salary}");
         }
         private static void editEmployeeInfo(Admin admin)
         {
