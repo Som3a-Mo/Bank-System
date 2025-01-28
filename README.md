@@ -56,8 +56,7 @@ The project is divided into three main modules:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bank-system-app.git
-   cd bank-system-app
+   git clone https://github.com/Som3a-Mo/Bank-System.git
    ```
 2. Open the project in Visual Studio or your preferred IDE.
 3. Build the project to restore dependencies and compile the code.
