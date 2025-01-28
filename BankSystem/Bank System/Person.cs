@@ -5,7 +5,7 @@ namespace Bank_System
     internal class Person
     {
 
-        public int Id { get; set; }
+        public int Id { get; set; } = 1;
         public string Name { get; protected set; }
         public string Password { get; protected set; }
 
@@ -36,18 +36,9 @@ namespace Bank_System
             return isValid;
         }
 
-        public bool setId(int id)
+        public void setId(int id)
         {
-            bool ok = Validation.IsValidId(this, id);
-            if (ok)
-            {
-                this.Id = id;
-            }else
-            {
-                Console.WriteLine($"This Id: {id} is Already exist ");
-            }
-
-            return ok;
+            this.Id = id;
         }
 
 

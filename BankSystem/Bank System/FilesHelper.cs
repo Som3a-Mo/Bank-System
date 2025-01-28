@@ -34,6 +34,36 @@ namespace Bank_System
             }
         }
 
+        public static int employeeIdGenerator()
+        {
+            List<Employee> employees = fileManager.getAllEmployees();
+            int generatedId = 1;
+            foreach (Employee employee in employees)
+            {
+                if (employee.Id != generatedId)
+                {
+                    break;
+                }
+                generatedId++;
+            }
+            return generatedId;
+        }
+
+        public static int clientIdGenerator()
+        {
+            List<Client> clients = fileManager.getAllClients();
+            int generatedId = 1;
+            foreach (Client client in clients)
+            {
+                if (client.Id != generatedId)
+                {
+                    break;
+                }
+                generatedId++;
+            }
+            return generatedId;
+        }
+
         public static Client getClient(int id)
         {
             List<Client> clients = fileManager.getAllClients();
@@ -46,6 +76,13 @@ namespace Bank_System
             List<Employee> employees = fileManager.getAllEmployees();
             Employee employee = employees.Where(employee => employee.Id == id).FirstOrDefault();
             return employee;
+        }
+
+        public static Admin getAdmin(int id)
+        {
+            List<Admin> employees = fileManager.getAllAdmins();
+            Admin admin = employees.Where(admin => admin.Id == id).FirstOrDefault();
+            return admin;
         }
 
         public static void clearAllClients()

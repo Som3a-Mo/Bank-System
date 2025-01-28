@@ -28,18 +28,6 @@ namespace Bank_System
             return balance >= Minimumbalance;
         }
 
-        public static bool IsValidId(Object obj,int id)
-        {
-            bool ok = false;
-            if (obj is Employee)
-            {
-                ok = FilesHelper.getEmployee(id) is null;
-            }
-            else if (obj is Client)
-            {
-                ok = FilesHelper.getClient(id) is null;
-            }
-            return ok;
-        }
+        
     }
 }
