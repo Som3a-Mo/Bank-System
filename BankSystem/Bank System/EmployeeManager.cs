@@ -34,6 +34,16 @@ namespace Bank_System
             Client client = new Client();
             int id = FilesHelper.clientIdGenerator();
             client.setId(id);
+            Console.Write("Enter Client Name: ");
+            string name = Console.ReadLine();
+            bool validName = client.setName(name);
+            while (!validName)
+            {
+                name = Console.ReadLine();
+                validName = client.setName(name);
+            }
+
+            Console.Write("Enter Client Password: ");
             string password = Console.ReadLine();
             bool validPassword = client.setPassword(password);
 
@@ -43,14 +53,7 @@ namespace Bank_System
                 validPassword = client.setPassword(password);
             }
 
-            string name = Console.ReadLine();
-            bool validName = client.setName(name);
-            while (!validName)
-            {
-                name = Console.ReadLine();
-                validName = client.setName(name);
-            }
-
+            Console.Write("Enter Client Balance: ");
             double balance = double.Parse(Console.ReadLine());
             bool validBalance = client.setBalance(balance);
             while (!validBalance)
@@ -58,6 +61,8 @@ namespace Bank_System
                 balance = double.Parse(Console.ReadLine());
                 validBalance = client.setBalance(balance);
             }
+            Console.WriteLine($"The Client Id is: {id}");
+            employee.addClient(client);
         }
 
         private static void searchForClient(Employee employee)
