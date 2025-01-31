@@ -71,4 +71,4 @@ The project is divided into three main modules:
 2. Each user can log in with their ID and password. If valid, they'll be directed to a menu with the relevant options for their role.
 
 3. All operations, such as adding clients and employees, editing their details, and displaying information, are available through these menus.
-4. Use Admin id `1` & password `12345678` to login.
+4. Use id `1` & password `12345678` to login as **administrator**.
